@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlayerCollision : MonoBehaviour
 {
     public GameObject gameOverUI;
+    public GameObject victoryUI;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -18,11 +19,22 @@ public class PlayerCollision : MonoBehaviour
         {
             GameOver();
         }
+        
+        if (collision.CompareTag("Finish"))
+        {
+            Victory();
+        }
     }
 
     void GameOver()
     {
         gameOverUI.SetActive(true);
-        Time.timeScale = 0f; // ËÂØ´à¡Á
+        Time.timeScale = 0f; // ï¿½ï¿½Ø´ï¿½ï¿½
+    }
+
+    void Victory()
+    {
+        victoryUI.SetActive(true);
+        Time.timeScale = 0f;
     }
 }
