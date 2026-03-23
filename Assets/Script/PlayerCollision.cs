@@ -4,6 +4,7 @@ public class PlayerCollision : MonoBehaviour
 {
     public GameObject gameOverUI;
     public GameObject victoryUI;
+    public Health playerHealth;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -17,7 +18,12 @@ public class PlayerCollision : MonoBehaviour
     {
         if (collision.CompareTag("Enemy"))
         {
-            GameOver();
+            playerHealth.currentHealth -= 10;
+            
+            if (playerHealth.currentHealth <= 0)
+            {
+                GameOver();
+            }
         }
         
         if (collision.CompareTag("Finish"))

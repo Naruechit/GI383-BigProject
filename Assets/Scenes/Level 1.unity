@@ -268,6 +268,7 @@ GameObject:
   - component: {fileID: 19668481}
   - component: {fileID: 19668483}
   - component: {fileID: 19668484}
+  - component: {fileID: 19668485}
   m_Layer: 0
   m_Name: "\u0E44\u0E02\u0E21\u0E31\u0E19\u0E17\u0E35\u0E48\u0E21\u0E35\u0E40\u0E21\u0E47\u0E14\u0E15\u0E34\u0E14\u0E2D\u0E22\u0E39\u0E48_20260301162744_0
     (1)"
@@ -414,6 +415,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &19668485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19668480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1 &35533138
 GameObject:
   m_ObjectHideFlags: 0
@@ -426,6 +440,7 @@ GameObject:
   - component: {fileID: 35533139}
   - component: {fileID: 35533141}
   - component: {fileID: 35533142}
+  - component: {fileID: 35533143}
   m_Layer: 0
   m_Name: "\u0E44\u0E02\u0E21\u0E31\u0E19_20260301162849_0"
   m_TagString: Enemy
@@ -571,6 +586,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &35533143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35533138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1 &47550640
 GameObject:
   m_ObjectHideFlags: 0
@@ -658,6 +686,7 @@ GameObject:
   - component: {fileID: 145156639}
   - component: {fileID: 145156641}
   - component: {fileID: 145156642}
+  - component: {fileID: 145156643}
   m_Layer: 0
   m_Name: fat_left__1__20260301173056-removebg-preview_0 (1)
   m_TagString: Enemy
@@ -845,6 +874,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &145156643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145156638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1 &168103019
 GameObject:
   m_ObjectHideFlags: 0
@@ -994,6 +1036,7 @@ GameObject:
   - component: {fileID: 189589990}
   - component: {fileID: 189589991}
   - component: {fileID: 189589992}
+  - component: {fileID: 189589993}
   m_Layer: 0
   m_Name: "\u0E44\u0E02\u0E21\u0E31\u0E19_20260301162849_0 (10)"
   m_TagString: Enemy
@@ -1139,6 +1182,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &189589993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189589988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1 &191811510
 GameObject:
   m_ObjectHideFlags: 0
@@ -1151,6 +1207,7 @@ GameObject:
   - component: {fileID: 191811511}
   - component: {fileID: 191811513}
   - component: {fileID: 191811514}
+  - component: {fileID: 191811515}
   m_Layer: 0
   m_Name: "\u0E44\u0E02\u0E21\u0E31\u0E19\u0E15\u0E34\u0E14\u0E40\u0E21\u0E47\u0E14\u0E40\u0E25\u0E37\u0E2D\u0E143_20260301162804-removebg-preview_0
     (1)"
@@ -1354,6 +1411,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &191811515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191811510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1 &229787184
 GameObject:
   m_ObjectHideFlags: 0
@@ -1366,6 +1436,7 @@ GameObject:
   - component: {fileID: 229787186}
   - component: {fileID: 229787187}
   - component: {fileID: 229787188}
+  - component: {fileID: 229787189}
   m_Layer: 0
   m_Name: "\u0E44\u0E02\u0E21\u0E31\u0E19_20260301162849_0 (19)"
   m_TagString: Enemy
@@ -1511,6 +1582,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &229787189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229787184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1 &268661433
 GameObject:
   m_ObjectHideFlags: 0
@@ -1523,6 +1607,7 @@ GameObject:
   - component: {fileID: 268661435}
   - component: {fileID: 268661436}
   - component: {fileID: 268661437}
+  - component: {fileID: 268661438}
   m_Layer: 0
   m_Name: "\u0E44\u0E02\u0E21\u0E31\u0E19_20260301162849_0 (13)"
   m_TagString: Enemy
@@ -1668,6 +1753,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &268661438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268661433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1001 &328746988
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1940,6 +2038,7 @@ GameObject:
   - component: {fileID: 374733130}
   - component: {fileID: 374733131}
   - component: {fileID: 374733132}
+  - component: {fileID: 374733133}
   m_Layer: 0
   m_Name: "\u0E44\u0E02\u0E21\u0E31\u0E19_20260301162849_0 (6)"
   m_TagString: Enemy
@@ -2085,6 +2184,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &374733133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374733128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1 &467142125
 GameObject:
   m_ObjectHideFlags: 0
@@ -2366,6 +2478,7 @@ GameObject:
   - component: {fileID: 530771955}
   - component: {fileID: 530771956}
   - component: {fileID: 530771957}
+  - component: {fileID: 530771958}
   m_Layer: 0
   m_Name: "\u0E44\u0E02\u0E21\u0E31\u0E19_20260301162849_0 (12)"
   m_TagString: Enemy
@@ -2511,6 +2624,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &530771958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 530771953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1 &543553913
 GameObject:
   m_ObjectHideFlags: 0
@@ -2523,6 +2649,7 @@ GameObject:
   - component: {fileID: 543553915}
   - component: {fileID: 543553916}
   - component: {fileID: 543553917}
+  - component: {fileID: 543553918}
   m_Layer: 0
   m_Name: "\u0E44\u0E02\u0E21\u0E31\u0E19_20260301162849_0 (16)"
   m_TagString: Enemy
@@ -2668,6 +2795,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &543553918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543553913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1 &552325261
 GameObject:
   m_ObjectHideFlags: 0
@@ -3244,6 +3384,7 @@ GameObject:
   - component: {fileID: 706729468}
   - component: {fileID: 706729470}
   - component: {fileID: 706729471}
+  - component: {fileID: 706729472}
   m_Layer: 0
   m_Name: "\u0E44\u0E02\u0E21\u0E31\u0E19\u0E17\u0E35\u0E48\u0E21\u0E35\u0E40\u0E21\u0E47\u0E14\u0E15\u0E34\u0E14\u0E2D\u0E22\u0E39\u0E48_20260301162744_0
     (2)"
@@ -3389,6 +3530,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &706729472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706729467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1 &718087026
 GameObject:
   m_ObjectHideFlags: 0
@@ -3401,6 +3555,7 @@ GameObject:
   - component: {fileID: 718087028}
   - component: {fileID: 718087029}
   - component: {fileID: 718087030}
+  - component: {fileID: 718087031}
   m_Layer: 0
   m_Name: "\u0E44\u0E02\u0E21\u0E31\u0E19\u0E15\u0E34\u0E14\u0E40\u0E21\u0E47\u0E14\u0E40\u0E25\u0E37\u0E2D\u0E143_20260301162804-removebg-preview_0
     (2)"
@@ -3604,6 +3759,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &718087031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718087026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1 &756135061
 GameObject:
   m_ObjectHideFlags: 0
@@ -3616,6 +3784,7 @@ GameObject:
   - component: {fileID: 756135063}
   - component: {fileID: 756135064}
   - component: {fileID: 756135065}
+  - component: {fileID: 756135066}
   m_Layer: 0
   m_Name: "\u0E44\u0E02\u0E21\u0E31\u0E19_20260301162849_0 (5)"
   m_TagString: Enemy
@@ -3761,6 +3930,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &756135066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756135061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1 &856817010
 GameObject:
   m_ObjectHideFlags: 0
@@ -3950,6 +4132,7 @@ GameObject:
   - component: {fileID: 926818704}
   - component: {fileID: 926818706}
   - component: {fileID: 926818707}
+  - component: {fileID: 926818708}
   m_Layer: 0
   m_Name: "\u0E44\u0E02\u0E21\u0E31\u0E19_20260301162849_0 (3)"
   m_TagString: Enemy
@@ -4095,6 +4278,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &926818708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926818703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1 &973553712
 GameObject:
   m_ObjectHideFlags: 0
@@ -4377,6 +4573,7 @@ GameObject:
   - component: {fileID: 1064941701}
   - component: {fileID: 1064941703}
   - component: {fileID: 1064941702}
+  - component: {fileID: 1064941704}
   m_Layer: 0
   m_Name: "\u0E44\u0E02\u0E21\u0E31\u0E19_20260301162849_0 (15)"
   m_TagString: Enemy
@@ -4522,6 +4719,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1064941704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064941699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1 &1111789853
 GameObject:
   m_ObjectHideFlags: 0
@@ -4534,6 +4744,7 @@ GameObject:
   - component: {fileID: 1111789854}
   - component: {fileID: 1111789856}
   - component: {fileID: 1111789857}
+  - component: {fileID: 1111789858}
   m_Layer: 0
   m_Name: "\u0E44\u0E02\u0E21\u0E31\u0E19\u0E15\u0E34\u0E14\u0E40\u0E21\u0E47\u0E14\u0E40\u0E25\u0E37\u0E2D\u0E144_20260301162730_0"
   m_TagString: Enemy
@@ -4688,6 +4899,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1111789858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111789853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1 &1168553526
 GameObject:
   m_ObjectHideFlags: 0
@@ -4777,6 +5001,7 @@ GameObject:
   - component: {fileID: 1204413370}
   - component: {fileID: 1204413372}
   - component: {fileID: 1204413373}
+  - component: {fileID: 1204413374}
   m_Layer: 0
   m_Name: "\u0E44\u0E02\u0E21\u0E31\u0E19_20260301162849_0 (4)"
   m_TagString: Enemy
@@ -4922,6 +5147,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1204413374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204413369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1 &1262356519
 GameObject:
   m_ObjectHideFlags: 0
@@ -4934,6 +5172,7 @@ GameObject:
   - component: {fileID: 1262356521}
   - component: {fileID: 1262356522}
   - component: {fileID: 1262356523}
+  - component: {fileID: 1262356524}
   m_Layer: 0
   m_Name: "\u0E44\u0E02\u0E21\u0E31\u0E19_20260301162849_0 (9)"
   m_TagString: Enemy
@@ -5079,6 +5318,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1262356524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262356519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1 &1314730163
 GameObject:
   m_ObjectHideFlags: 0
@@ -5091,6 +5343,7 @@ GameObject:
   - component: {fileID: 1314730165}
   - component: {fileID: 1314730166}
   - component: {fileID: 1314730167}
+  - component: {fileID: 1314730168}
   m_Layer: 0
   m_Name: fat_left__1__20260301173056-removebg-preview_0 (3)
   m_TagString: Enemy
@@ -5278,6 +5531,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1314730168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314730163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1 &1349869167
 GameObject:
   m_ObjectHideFlags: 0
@@ -5381,6 +5647,7 @@ GameObject:
   - component: {fileID: 1366616806}
   - component: {fileID: 1366616808}
   - component: {fileID: 1366616809}
+  - component: {fileID: 1366616810}
   m_Layer: 0
   m_Name: "\u0E44\u0E02\u0E21\u0E31\u0E19_20260301162849_0 (1)"
   m_TagString: Enemy
@@ -5525,6 +5792,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1366616810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366616805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1 &1379902287
 GameObject:
   m_ObjectHideFlags: 0
@@ -5661,6 +5941,7 @@ GameObject:
   - component: {fileID: 1468765321}
   - component: {fileID: 1468765322}
   - component: {fileID: 1468765323}
+  - component: {fileID: 1468765324}
   m_Layer: 0
   m_Name: "\u0E44\u0E02\u0E21\u0E31\u0E19\u0E15\u0E34\u0E14\u0E40\u0E21\u0E47\u0E14\u0E40\u0E25\u0E37\u0E2D\u0E143_20260301162804-removebg-preview_0
     (3)"
@@ -5864,6 +6145,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1468765324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468765319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1 &1612240605
 GameObject:
   m_ObjectHideFlags: 0
@@ -5876,6 +6170,7 @@ GameObject:
   - component: {fileID: 1612240606}
   - component: {fileID: 1612240608}
   - component: {fileID: 1612240609}
+  - component: {fileID: 1612240610}
   m_Layer: 0
   m_Name: "\u0E44\u0E02\u0E21\u0E31\u0E19\u0E15\u0E34\u0E14\u0E40\u0E21\u0E47\u0E14\u0E40\u0E25\u0E37\u0E2D\u0E143_20260301162804-removebg-preview_0"
   m_TagString: Enemy
@@ -6078,6 +6373,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1612240610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612240605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1 &1668317398
 GameObject:
   m_ObjectHideFlags: 0
@@ -6090,6 +6398,7 @@ GameObject:
   - component: {fileID: 1668317400}
   - component: {fileID: 1668317401}
   - component: {fileID: 1668317402}
+  - component: {fileID: 1668317403}
   m_Layer: 0
   m_Name: "\u0E44\u0E02\u0E21\u0E31\u0E19_20260301162849_0 (17)"
   m_TagString: Enemy
@@ -6235,6 +6544,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1668317403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668317398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1 &1712915361
 GameObject:
   m_ObjectHideFlags: 0
@@ -6247,6 +6569,7 @@ GameObject:
   - component: {fileID: 1712915362}
   - component: {fileID: 1712915364}
   - component: {fileID: 1712915365}
+  - component: {fileID: 1712915366}
   m_Layer: 0
   m_Name: "\u0E44\u0E02\u0E21\u0E31\u0E19_20260301162849_0 (2)"
   m_TagString: Enemy
@@ -6392,6 +6715,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1712915366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712915361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1 &1758727911
 GameObject:
   m_ObjectHideFlags: 0
@@ -6404,6 +6740,7 @@ GameObject:
   - component: {fileID: 1758727913}
   - component: {fileID: 1758727914}
   - component: {fileID: 1758727915}
+  - component: {fileID: 1758727916}
   m_Layer: 0
   m_Name: "\u0E44\u0E02\u0E21\u0E31\u0E19_20260301162849_0 (18)"
   m_TagString: Enemy
@@ -6549,6 +6886,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1758727916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758727911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1 &1825125135
 GameObject:
   m_ObjectHideFlags: 0
@@ -6561,6 +6911,7 @@ GameObject:
   - component: {fileID: 1825125136}
   - component: {fileID: 1825125138}
   - component: {fileID: 1825125139}
+  - component: {fileID: 1825125140}
   m_Layer: 0
   m_Name: "\u0E44\u0E02\u0E21\u0E31\u0E19\u0E17\u0E35\u0E48\u0E21\u0E35\u0E40\u0E21\u0E47\u0E14\u0E15\u0E34\u0E14\u0E2D\u0E22\u0E39\u0E48_20260301162744_0"
   m_TagString: Enemy
@@ -6706,6 +7057,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1825125140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825125135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1 &1835921702
 GameObject:
   m_ObjectHideFlags: 0
@@ -6718,6 +7082,7 @@ GameObject:
   - component: {fileID: 1835921704}
   - component: {fileID: 1835921705}
   - component: {fileID: 1835921706}
+  - component: {fileID: 1835921707}
   m_Layer: 0
   m_Name: "\u0E44\u0E02\u0E21\u0E31\u0E19_20260301162849_0 (11)"
   m_TagString: Enemy
@@ -6863,6 +7228,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1835921707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835921702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1 &1861993483
 GameObject:
   m_ObjectHideFlags: 0
@@ -7008,6 +7386,7 @@ GameObject:
   - component: {fileID: 1972507181}
   - component: {fileID: 1972507182}
   - component: {fileID: 1972507183}
+  - component: {fileID: 1972507184}
   m_Layer: 0
   m_Name: fat_left__1__20260301173056-removebg-preview_0 (2)
   m_TagString: Enemy
@@ -7195,6 +7574,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1972507184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972507179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1 &1997683389
 GameObject:
   m_ObjectHideFlags: 0
@@ -7207,6 +7599,7 @@ GameObject:
   - component: {fileID: 1997683391}
   - component: {fileID: 1997683392}
   - component: {fileID: 1997683393}
+  - component: {fileID: 1997683394}
   m_Layer: 0
   m_Name: "\u0E44\u0E02\u0E21\u0E31\u0E19_20260301162849_0 (14)"
   m_TagString: Enemy
@@ -7352,6 +7745,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1997683394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997683389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1 &2065619334
 GameObject:
   m_ObjectHideFlags: 0
@@ -7364,6 +7770,7 @@ GameObject:
   - component: {fileID: 2065619335}
   - component: {fileID: 2065619337}
   - component: {fileID: 2065619338}
+  - component: {fileID: 2065619339}
   m_Layer: 0
   m_Name: fat_left__1__20260301173056-removebg-preview_0
   m_TagString: Enemy
@@ -7551,6 +7958,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2065619339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065619334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1 &2092441810
 GameObject:
   m_ObjectHideFlags: 0
@@ -7563,6 +7983,7 @@ GameObject:
   - component: {fileID: 2092441812}
   - component: {fileID: 2092441813}
   - component: {fileID: 2092441814}
+  - component: {fileID: 2092441815}
   m_Layer: 0
   m_Name: "\u0E44\u0E02\u0E21\u0E31\u0E19_20260301162849_0 (8)"
   m_TagString: Enemy
@@ -7708,6 +8129,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2092441815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092441810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d5fe755b042ce4195e4bb8ee34462d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  health: {fileID: 2105651653}
 --- !u!1 &2105651644 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 826299225603269448, guid: aa20785cd3f75f8459a97fb30d7edc7d, type: 3}
@@ -7814,6 +8248,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCollision
   gameOverUI: {fileID: 1349869167}
   victoryUI: {fileID: 1168553526}
+  playerHealth: {fileID: 2105651653}
 --- !u!114 &2105651653
 MonoBehaviour:
   m_ObjectHideFlags: 0
