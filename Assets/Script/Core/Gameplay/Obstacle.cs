@@ -3,13 +3,11 @@ using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
-    public Health health;
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
             Debug.Log("Player Hit");
-           health.TakeDamage(10);
         }
     }
 }

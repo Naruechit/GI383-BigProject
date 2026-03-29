@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class PlayerShoot : MonoBehaviour
 {
@@ -8,11 +9,14 @@ public class PlayerShoot : MonoBehaviour
 
     public float bulletLifeTime = 2f; // ⏱ เวลาก่อนกระสุนหาย (วินาที)
 
+    public Ammo ammo;
+
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && ammo.currentAmmo > 0)
         {
             Shoot();
+            ammo.currentAmmo--;
         }
     }
 
@@ -21,8 +25,9 @@ public class PlayerShoot : MonoBehaviour
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
 
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-        rb.velocity = Vector2.up * bulletSpeed; // ⬆️ ยิงขึ้นด้านบน
+        rb.linearVelocity = Vector2.up * bulletSpeed; // ⬆️ ยิงขึ้นด้านบน
 
         Destroy(bullet, bulletLifeTime); // 💥 ทำลายหลังผ่านเวลา
     }
+    
 }

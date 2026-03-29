@@ -8,4 +8,5 @@ public class Player : MonoBehaviour
     
     [field:SerializeField] public PlayerCurveMovement playerCurveMovement { get; private set; }
     [field:SerializeField] public Health health { get; private set; }
+    [field:SerializeField] public Ammo ammo { get; private set; }
 }
