@@ -13,11 +13,14 @@ public class PlayerShoot : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && ammo.currentAmmo > 0)
+        
+        if (Input.GetKeyDown(KeyCode.Space) && ammo.currentAmmo > 1)
         {
             Shoot();
-            ammo.currentAmmo--;
+            ammo.currentAmmo = 0;
         }
+
+        ammo.currentAmmo += 0.01f;
     }
 
     void Shoot()
@@ -25,7 +28,7 @@ public class PlayerShoot : MonoBehaviour
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
 
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-        rb.linearVelocity = Vector2.up * bulletSpeed; // ⬆️ ยิงขึ้นด้านบน
+        rb.linearVelocity = firePoint.up * bulletSpeed; // ⬆️ ยิงขึ้นด้านบน
 
         Destroy(bullet, bulletLifeTime); // 💥 ทำลายหลังผ่านเวลา
     }

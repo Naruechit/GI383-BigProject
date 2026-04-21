@@ -26,6 +26,11 @@ public class PlayerCollision : MonoBehaviour
             }
         }
         
+        if(collision.CompareTag("Pickup"))
+        {
+            playerHealth.currentHealth += 10;
+        }
+        
         if (collision.CompareTag("Finish"))
         {
             Victory();

@@ -7,9 +7,9 @@ public class AmmoDisplay : MonoBehaviour
     public Image ammoImage;
     public Ammo ammo;
     
-    public void SetAmmo(int ammo)
+    public void SetAmmo(float ammo)
     {
-        ammoImage.fillAmount = ammo / 10f;
+        ammoImage.fillAmount = ammo / 1f;
     }
 
     public void Update()

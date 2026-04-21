@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class Ammo : MonoBehaviour
 {
-    public int currentAmmo;
-    public int maxAmmo = 10;
+    public float currentAmmo;
+    public float maxAmmo = 1;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -14,6 +14,9 @@ public class Ammo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (currentAmmo == 1)
+        {
+            currentAmmo = 1;
+        }
     }
 }

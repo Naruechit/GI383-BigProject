@@ -15,6 +15,9 @@ public class PlayerCurveMovement : MonoBehaviour
     private float targetX;
     private float currentVelocity;
 
+    [SerializeField]
+    private float rotationSpeed;
+
     void Update()
     {
         float input = Input.GetAxisRaw("Horizontal");
@@ -24,17 +27,22 @@ public class PlayerCurveMovement : MonoBehaviour
             // ตอนกด → เปลี่ยน target
             targetX += input * steerSpeed * Time.deltaTime;
             targetX = Mathf.Clamp(targetX, -steerAmount, steerAmount);
+            
         }
         else
         {
             // ตอนปล่อย → target ค่อย ๆ กลับ 0
             targetX = Mathf.Lerp(targetX, 0f, returnSpeed * Time.deltaTime);
         }
+        
+
     }
 
     void FixedUpdate()
     {
         Vector3 pos = transform.position;
+
+        float oldX = pos.x;
 
         // วิ่งขึ้นตลอด
        // pos.y += forwardSpeed * Time.fixedDeltaTime;
@@ -50,5 +58,15 @@ public class PlayerCurveMovement : MonoBehaviour
         pos.x = Mathf.Clamp(newX, minX, maxX);
 
         transform.position = pos;
+        
+        float deltaX = newX - oldX;
+        
+        float targetRotation = -deltaX * rotationSpeed;
+        
+        transform.rotation = Quaternion.Lerp(
+            transform.rotation,
+            Quaternion.Euler(0f, 0f, targetRotation),
+            Time.fixedDeltaTime * 10f);
+        
     }
 }
