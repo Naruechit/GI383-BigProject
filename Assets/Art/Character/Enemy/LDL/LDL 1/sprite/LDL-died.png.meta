@@ -83,7 +83,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -133,12 +133,12 @@ TextureImporter:
       name: LDL-died_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 13
-        width: 40
-        height: 39
+        x: 0
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -156,11 +156,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 8
-        width: 145
-        height: 49
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -177,12 +177,12 @@ TextureImporter:
       name: LDL-died_2
       rect:
         serializedVersion: 2
-        x: 192
-        y: 7
-        width: 47
-        height: 50
+        x: 96
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -199,12 +199,12 @@ TextureImporter:
       name: LDL-died_3
       rect:
         serializedVersion: 2
-        x: 240
-        y: 41
-        width: 10
-        height: 10
+        x: 144
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -221,12 +221,12 @@ TextureImporter:
       name: LDL-died_4
       rect:
         serializedVersion: 2
-        x: 249
-        y: 37
-        width: 14
-        height: 19
+        x: 192
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -243,12 +243,12 @@ TextureImporter:
       name: LDL-died_5
       rect:
         serializedVersion: 2
-        x: 261
-        y: 46
-        width: 9
-        height: 10
+        x: 240
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -261,121 +261,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: LDL-died_6
-      rect:
-        serializedVersion: 2
-        x: 264
-        y: 39
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 272ae518b01ecd7a0800000000000000
-      internalID: -6350953934967889294
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LDL-died_7
-      rect:
-        serializedVersion: 2
-        x: 270
-        y: 44
-        width: 11
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eab5de566821ca950800000000000000
-      internalID: 6461559933814791086
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LDL-died_8
-      rect:
-        serializedVersion: 2
-        x: 276
-        y: 36
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b43e46f8881de0640800000000000000
-      internalID: 5048202616780415819
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LDL-died_9
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 8
-        width: 33
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f8c7233c1cc9ce690800000000000000
-      internalID: -7571504517499159409
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LDL-died_10
-      rect:
-        serializedVersion: 2
-        x: 270
-        y: 10
-        width: 18
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 60c6bb9f77cbb4a80800000000000000
-      internalID: -8481478249745257466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b25ca039a1435b147b8f8438bfa0e8a4
     internalID: 0
     vertices: []
     indices: 
@@ -383,19 +273,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":1.0},"gridSpriteSize":{"x":48.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       LDL-died_0: -4067604277672660946
       LDL-died_1: 4488929729280659097
-      LDL-died_10: -8481478249745257466
       LDL-died_2: 3821437537190965892
       LDL-died_3: -3828732898328136845
       LDL-died_4: 756375613256722361
       LDL-died_5: -5646200715155910787
-      LDL-died_6: -6350953934967889294
-      LDL-died_7: 6461559933814791086
-      LDL-died_8: 5048202616780415819
-      LDL-died_9: -7571504517499159409
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

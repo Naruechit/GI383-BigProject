@@ -5452,9 +5452,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2522108581367735976, guid: fc16649ee06acd54e9171e0f9f422dcd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1485
+      objectReference: {fileID: 0}
     - target: {fileID: 3457785370152065508, guid: fc16649ee06acd54e9171e0f9f422dcd, type: 3}
       propertyPath: m_Name
       value: Player (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4128626056621188323, guid: fc16649ee06acd54e9171e0f9f422dcd, type: 3}
+      propertyPath: currentHealth
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4996365322555000240, guid: fc16649ee06acd54e9171e0f9f422dcd, type: 3}
       propertyPath: victoryUI
